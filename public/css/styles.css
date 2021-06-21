@@ -1,0 +1,82 @@
+.container {
+    background-color: rgb(161, 154, 194);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.card {
+    width: 50vw;
+    background-color: ghostwhite;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.add-area {
+    margin-bottom: 30px;
+}
+.input-add {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+.button-add {
+    color: hotpink;
+    border: 2px solid hotpink;
+    font-size: 12px;
+    background-color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+table {
+    width: 100%;
+}
+
+tbody {
+    display: table-row-group;
+}
+tr {
+    height: 50px;
+}
+.update-input {
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+.update-button {
+    color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+    background-color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.delete-button {
+    color: rgba(0, 217, 255, 0.918);
+    border: 2px solid rgba(0, 217, 255, 0.918);
+    font-size: 12px;
+    background-color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
